@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-12T09:59:42 IST" name="Suite" finished-at="2024-08-12T10:01:54 IST" duration-ms="132600">
+    <groups>
+      <group name="leads">
+        <method signature="CreateAndDuplicateLeadTest.createAndDuplicateLeadTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" name="createAndDuplicateLeadTest" class="testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest"/>
+      </group> <!-- leads -->
+      <group name="organizations">
+        <method signature="CreateOrgWithTypeAndIndustryTest.createOrgWithTypeAndIndustryTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" name="createOrgWithTypeAndIndustryTest" class="testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest"/>
+        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" name="createOrgTest" class="testNgImplementationWithAssert.copy.CreateOrganizationTest"/>
+      </group> <!-- organizations -->
+      <group name="events">
+        <method signature="CreateEventTest.createEventTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" name="createEventTest" class="testNgImplementationWithAssert.copy.CreateEventTest"/>
+      </group> <!-- events -->
+      <group name="contacts">
+        <method signature="CreateContactWithExistingOrgTest.createContact()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" name="createContact" class="testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest"/>
+      </group> <!-- contacts -->
+    </groups>
+    <test started-at="2024-08-12T09:59:42 IST" name="Test" finished-at="2024-08-12T10:01:54 IST" duration-ms="132600">
+      <class name="testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" started-at="2024-08-12T10:00:31 IST" name="classConfiguration" finished-at="2024-08-12T10:00:32 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" started-at="2024-08-12T10:00:32 IST" name="methodConfiguration" finished-at="2024-08-12T10:00:36 IST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="createOrgWithTypeAndIndustryTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" started-at="2024-08-12T10:00:36 IST" name="createOrgWithTypeAndIndustryTest" finished-at="2024-08-12T10:00:58 IST" duration-ms="21918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithTypeAndIndustryTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" started-at="2024-08-12T10:00:58 IST" name="methodTeardown" finished-at="2024-08-12T10:00:59 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest@2a798d51]" started-at="2024-08-12T10:00:59 IST" name="classTeardown" finished-at="2024-08-12T10:00:59 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNgImplementationWithAssert.copy.CreateOrgWithTypeAndIndustryTest -->
+      <class name="testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" started-at="2024-08-12T10:00:59 IST" name="classConfiguration" finished-at="2024-08-12T10:01:01 IST" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" started-at="2024-08-12T10:01:01 IST" name="methodConfiguration" finished-at="2024-08-12T10:01:04 IST" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="createAndDuplicateLeadTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" started-at="2024-08-12T10:01:04 IST" name="createAndDuplicateLeadTest" finished-at="2024-08-12T10:01:17 IST" duration-ms="12947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDuplicateLeadTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" started-at="2024-08-12T10:01:17 IST" name="methodTeardown" finished-at="2024-08-12T10:01:18 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest@6d763516]" started-at="2024-08-12T10:01:18 IST" name="classTeardown" finished-at="2024-08-12T10:01:19 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNgImplementationWithAssert.copy.CreateAndDuplicateLeadTest -->
+      <class name="testNgImplementationWithAssert.copy.CreateEventTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" started-at="2024-08-12T09:59:42 IST" name="classConfiguration" finished-at="2024-08-12T09:59:48 IST" duration-ms="6594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" started-at="2024-08-12T09:59:48 IST" name="methodConfiguration" finished-at="2024-08-12T10:00:01 IST" duration-ms="12978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="createEventTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" started-at="2024-08-12T10:00:01 IST" name="createEventTest" finished-at="2024-08-12T10:00:23 IST" duration-ms="21887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEventTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" started-at="2024-08-12T10:00:23 IST" name="methodTeardown" finished-at="2024-08-12T10:00:31 IST" duration-ms="7200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateEventTest@9f116cc]" started-at="2024-08-12T10:00:31 IST" name="classTeardown" finished-at="2024-08-12T10:00:31 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNgImplementationWithAssert.copy.CreateEventTest -->
+      <class name="testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" started-at="2024-08-12T10:01:19 IST" name="classConfiguration" finished-at="2024-08-12T10:01:20 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" started-at="2024-08-12T10:01:20 IST" name="methodConfiguration" finished-at="2024-08-12T10:01:23 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="createContact()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" started-at="2024-08-12T10:01:23 IST" name="createContact" finished-at="2024-08-12T10:01:36 IST" duration-ms="12649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" started-at="2024-08-12T10:01:36 IST" name="methodTeardown" finished-at="2024-08-12T10:01:38 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest@52bf72b5]" started-at="2024-08-12T10:01:38 IST" name="classTeardown" finished-at="2024-08-12T10:01:38 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNgImplementationWithAssert.copy.CreateContactWithExistingOrgTest -->
+      <class name="testNgImplementationWithAssert.copy.CreateOrganizationTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" started-at="2024-08-12T10:01:38 IST" name="classConfiguration" finished-at="2024-08-12T10:01:39 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" started-at="2024-08-12T10:01:39 IST" name="methodConfiguration" finished-at="2024-08-12T10:01:43 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="createOrgTest()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" started-at="2024-08-12T10:01:43 IST" name="createOrgTest" finished-at="2024-08-12T10:01:53 IST" duration-ms="10087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" started-at="2024-08-12T10:01:53 IST" name="methodTeardown" finished-at="2024-08-12T10:01:54 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNgImplementationWithAssert.copy.CreateOrganizationTest@37afeb11]" started-at="2024-08-12T10:01:54 IST" name="classTeardown" finished-at="2024-08-12T10:01:54 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNgImplementationWithAssert.copy.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
