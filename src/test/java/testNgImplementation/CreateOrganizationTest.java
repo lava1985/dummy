@@ -20,7 +20,7 @@ public class CreateOrganizationTest extends BaseClass {
 		OrganizationInformationPage orgInfo = pageObjectManager.getOrgInfo();
 		
 		home.clickRequiredTab(driverUtil, TabNames.ORGANIZATIONS);
-
+//login page
 		if (driver.getTitle().contains("Organizations"))
 			System.out.println("Organizations Page is Displayed");
 		else
