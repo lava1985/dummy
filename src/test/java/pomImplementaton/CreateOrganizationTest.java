@@ -16,7 +16,7 @@ import objectRepo.HomePage;
 import objectRepo.LoginPage;
 import objectRepo.OrganizationInformationPage;
 import objectRepo.OrganizationsPage;
-
+//this is intrview script
 public class CreateOrganizationTest {
 
 	public static void main(String[] args) {
