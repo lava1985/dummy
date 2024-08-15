@@ -1,4 +1,3 @@
-
 package testNgImplementationWithAssert.copy;
 
 import java.util.Map;
@@ -10,7 +9,7 @@ import genericUtilities.TabNames;
 import objectRepo.CreatingNewOrganizationPage;
 import objectRepo.OrganizationInformationPage;
 import objectRepo.OrganizationsPage;
-
+//Organization test
 public class CreateOrgWithTypeAndIndustryTest extends BaseClass {
  
 	@Test(groups = "organizations")
