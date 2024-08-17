@@ -9,7 +9,7 @@ import genericUtilities.TabNames;
 import objectRepo.CreatingNewOrganizationPage;
 import objectRepo.OrganizationInformationPage;
 import objectRepo.OrganizationsPage;
-//Organization test
+//Organization Test
 public class CreateOrgWithTypeAndIndustryTest extends BaseClass {
  
 	@Test(groups = "organizations")
