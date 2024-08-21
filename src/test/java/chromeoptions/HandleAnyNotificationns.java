@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 import pratice.d;
-
+//Test
 public class HandleAnyNotificationns{
 @Test
 public void handleNotifications() throws InterruptedException
