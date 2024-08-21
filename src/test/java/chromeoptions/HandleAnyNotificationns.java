@@ -16,6 +16,7 @@ public class HandleAnyNotificationns{
 @Test
 public void handleNotifications() throws InterruptedException
 {
+	//test handleNotifications
 	HashMap<String,Integer> contentsetting= new HashMap<>();
 	HashMap<String,Object> profile= new HashMap<>();
 	HashMap<String,Object> pereference= new HashMap<>();

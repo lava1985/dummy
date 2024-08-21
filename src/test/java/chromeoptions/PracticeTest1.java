@@ -10,6 +10,7 @@ public class PracticeTest1 {
 //test
 	@Test
 	public void startMaximizedBrowser() throws InterruptedException {
+		//startMaximizedBrowser test
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
 		
